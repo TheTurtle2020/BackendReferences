@@ -48,7 +48,8 @@ PS：
 - 列表级别最好不超过三层。
 
 # Commit Message 怎么写？
-格式：`操作：路径`，如 `add：消息队列-RocketMQ-开源社区`。
+格式：`操作类型：做了什么`，如 `add：消息队列-RocketMQ-视频-B站动力节点的mq学习视频`。
 
 简单分为两种操作即可，新增用 add，修改用 update：`update：消息队列-RocketMQ-开源社区`。
 
+**注意**：一事一 commit 原则，禁止一个 commit 杂糅多个操作。
