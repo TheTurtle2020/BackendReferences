@@ -22,7 +22,7 @@
 - 最后就是 README.md 了。
 - 综上：`缓存/Redis/视频/README.md` 或 `缓存/Redis/书籍/README.md`。
 
-再往下看看【README.md 怎么写？】，然后就可以提交您的 PR 了！
+**再往下看看【README.md 怎么写】和【Commit Message 怎么写】，然后就可以提交您的 PR 了！**
 
 # README.md 怎么写？
 [官方文档-RocketMQ](https://rocketmq.apache.org/zh/docs/)
@@ -47,6 +47,8 @@ PS：
 - 超链接自成一行，尽量不打一级标题，按照普通文本行 -> 列表即可。
 - 列表级别最好不超过三层。
 
+# Commit Message 怎么写？
+格式：`操作：路径`，如 `add：消息队列-RocketMQ-开源社区`。
 
-
+简单分为两种操作即可，新增用 add，修改用 update：`update：消息队列-RocketMQ-开源社区`。
 
